@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 
 # save https://adventofcode.com/2021/day/1/input as .txt file
-# solution 2
+# solution 1
 class SubmarineNavigation:
 
     def __init__(self):
