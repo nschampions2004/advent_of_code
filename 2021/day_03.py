@@ -41,7 +41,7 @@ class BinaryDiagnostic:
             3. do it again for the second entry... so forth and so on
         """
 
-        binary_width = len(self.binary_file[0])
+        binary_width = len(self.binary_file[00])
 
         keep = np.array([row for row in self.binary_file])
         for i in range(binary_width): # switch to length of binary file
